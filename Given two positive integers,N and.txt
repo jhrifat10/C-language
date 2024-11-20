@@ -1,0 +1,16 @@
+// Given two positive integers,N and K, print numbers from 1 to K on each line, repeated N times.
+#include <stdio.h>
+
+int main() {
+    int N, K;
+    scanf("%d %d", &N, &K);
+
+    for (int i = 0; i < N; i++) {          
+        for (int j = 1; j <= K; j++) {     
+            printf("%d ", j);
+        }
+        printf("\n");  
+    }
+
+    return 0;
+}
