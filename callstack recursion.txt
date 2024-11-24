@@ -1,0 +1,22 @@
+#include <stdio.h>
+void world()
+{
+printf("world start\n");
+printf("world end\n");
+}
+void Hello()
+{
+    printf("Hello start\n");
+    world();
+    printf("Hello end\n");
+
+}
+
+int main ()
+{
+    printf("main start\n");
+    Hello();
+    printf("main end\n");
+    
+    return 0;
+}
