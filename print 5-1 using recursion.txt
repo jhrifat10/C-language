@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+void Hello(int i)
+{
+    if(i==0) 
+    return;
+    printf("%d\n",i);
+    Hello(i-1);
+
+
+}
+
+int main ()
+{
+    
+    Hello(5);
+
+    return 0;
+}
